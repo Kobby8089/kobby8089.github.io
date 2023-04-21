@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("16.jpg");
+  height: 500%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.navbar{
+    width: autopx;
+    height: 700px;
+    margin: auto;
+}
+
+.icon{
+    width: 1200px;
+    float: left
+    heigh: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Times roman;
+    padding-left: 20px;
+    float:left;
+    padding-top:10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;    
+}
+
+ul li a:hover{
+    color:orange;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 300px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 3px solid black;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.btn{
+    width: 70px;
+    height: 40px;
+    background: black;
+    border: 1px solid black;
+    margin-top: 13px;
+    color: white;
+    font-size: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: -120px;
+    padding-bottom: -40px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Times New Roman;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: -60px;
+    margin-top: -200px;
+    letter-spacing: 10px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius:active 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: red;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: black;
+}
+
+.content span{
+    color: white;
+    font-size: 20px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(black);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: -250px;
+    margin-left: 80px;
+}
+
+.form h2{
+    width:220px;
+    font-family: Gadugi;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Gadugi;
+}
+
+.form input:focus{
+    outline:none;
+}
+
+::placeholder{
+    color:white;
+    font-family: Gadugi;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background:white;
+    color:orange;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.h3{
+    margin-top:-20;
+}
+
+footer{
+    background-color: white;
+    color: red;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
